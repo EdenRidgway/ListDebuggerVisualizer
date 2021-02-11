@@ -1,16 +1,10 @@
 # Visual Studio List Debugger Visualizer
 This is forked version of the Visual Studio List debugger that Antonia Bakula wrote with the following changes:
 * Replaces the Telerik RadGridView with the standard windows forms DataGridView
-* Improves the Excel export to handle int, double and date type exports and formats intead of treating everything as text
+* Improves the Excel export to handle int, double and date type exports and formats instead of treating everything as text
 * The Excel export launches Excel after the export.
 
-The Visual Studio debugger visualizer for List<T> or more precisly if inspected object implement IList.
-
-Installation available on Visual Studio Marketplace: https://marketplace.visualstudio.com/items?itemName=AntonioBakula.vs2019-list-visualizer
-
-### Binaries download:
-
-GitHub releases for this project.
+The Visual Studio debugger visualizer for List<T> that converts the objects into a grid view.
 
 ### Installation:
 Simply copy visualizer dll to your Visual Studio Visualizers folder, default folder is:
